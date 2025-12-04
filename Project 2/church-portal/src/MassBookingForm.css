@@ -1,0 +1,68 @@
+/* src/MassBookingForm.css */
+.mass-booking-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mass-booking-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.mass-booking-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.mass-booking-form input,
+.mass-booking-form select,
+.mass-booking-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mass-booking-form textarea {
+  resize: vertical;
+}
+
+.captcha-section {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.captcha-code {
+  background-color: #eee;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  border-radius: 4px;
+}
+
+.warning {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.mass-booking-form button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mass-booking-form button:hover {
+  background-color: #005fa3;
+}
